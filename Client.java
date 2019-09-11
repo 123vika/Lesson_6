@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-
-
 class alwaysListen implements Runnable {
 
     String msgFromServer;
@@ -16,10 +14,6 @@ class alwaysListen implements Runnable {
    // DataOutputStream out;
     DataInputStream in;
     Socket socket;
-
-
-
-
 
 
     alwaysListen(String threadName ,Socket socket,DataInputStream in){
@@ -63,13 +57,6 @@ class alwaysListen implements Runnable {
         }
     }
 }
-
-
-
-
-
-
-
 
 
 public class Client {

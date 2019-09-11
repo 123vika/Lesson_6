@@ -5,10 +5,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-
-
-
-
     class RunnableDemo implements Runnable {
         private Thread t;
         private String threadName;
@@ -61,8 +57,6 @@ import java.util.Scanner;
             }
         }
     }
-
-
 
 class ScanForServer implements Runnable {
     private Thread t;
